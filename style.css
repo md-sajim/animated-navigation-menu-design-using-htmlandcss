@@ -84,3 +84,75 @@ form>button:hover {
     margin: 0 auto;
     background-color: #fff;
 }
+/* display section */
+
+#mail-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+}
+#mail-display{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+/* Datiles section */
+#customAlert {
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(245, 244, 243, 0);
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+   
+   
+}
+
+.buttonYou{
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #FFCB69;
+    color:#fff;
+}
+.buttonYou:hover{
+    background-color: #D57D1F;
+}
+.box {
+    border-radius: 5px;
+    margin: 100px auto;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+   
+}
+
+.content {
+    /* margin-top: 30px; */
+    /* height: 45vh; */
+}
+
+#confirmbtn {
+    position:sticky;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color:#FFCB69;
+    color: white;
+    margin-top:65px;
+    margin-left: 89%;
+}
+#confirmbtn:hover{
+    background-color: #D57D1F;
+}
+#top-detai{
+    display: flex;
+}
