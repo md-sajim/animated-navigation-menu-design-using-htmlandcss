@@ -2,11 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif
+    background-color: #2D2013;
+
 }
 
 .container {
     background: pink;
     width: 100%;
     height: 100%;
+}
+
+.header-in {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container {
+    margin: 5px auto;
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+
+    width: 600px;
+    height: 55px;
+    display: flex;
+    margin: 10px auto;
+
+
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 25px 0 0 25px;
+    font-size: 20px;
+    background-color: #fff;
+
+
+}
+
+form>button {
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+form>button:hover {
+    background-color: rgb(238, 43,9);
+    color: wheat;
+}
+.block-items{
+    display: block;
+    padding: 10px;
+}
+.block-items>h3>span{
+    color: #D57D1F;
+}
+.block-items>h3>span:hover{
+    color: #FFCB69;
+}
+.block-items>h3{
+    color: #fff;
+}
+.horezontal-line{
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
 }
